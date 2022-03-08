@@ -9,7 +9,7 @@ spec:
     namespace: test-apps
   project: default
   source:
-    path: my-app
+    path: my-app-3
     repoURL: https://github.com/allir/argo-cd-test
     targetRevision: HEAD
   syncPolicy:
