@@ -16,6 +16,7 @@ spec:
       creationTimestamp: null
       labels:
         app: my-app
+        appnumber: "1"
     spec:
       containers:
       - image: nginx
