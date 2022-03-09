@@ -6,7 +6,7 @@ metadata:
 spec:
   destination:
     name: in-cluster
-    namespace: test-apps
+    namespace: app-of-apps
   project: default
   source:
     path: app-of-apps/my-app-1

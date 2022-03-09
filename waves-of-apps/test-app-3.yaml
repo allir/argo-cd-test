@@ -8,7 +8,7 @@ metadata:
 spec:
   destination:
     name: in-cluster
-    namespace: test-apps
+    namespace: waves-of-apps
   project: default
   source:
     path: waves-of-apps/my-app-3
