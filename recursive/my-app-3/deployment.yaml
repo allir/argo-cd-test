@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: app-3
+    appnumber: "3"
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
+  name: app-3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-3
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: app-3
+        appnumber: "3"
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: {}
