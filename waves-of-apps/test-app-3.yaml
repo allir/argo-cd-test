@@ -1,15 +1,17 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app-of-apps-1
+  name: wave-of-apps-3
   namespace: argocd
+  annotations:
+    argocd.argoproj.io/sync-wave: "3"
 spec:
   destination:
     name: in-cluster
     namespace: test-apps
   project: default
   source:
-    path: app-of-apps/my-app-1
+    path: waves-of-apps/my-app-3
     repoURL: https://github.com/allir/argo-cd-test
     targetRevision: HEAD
   syncPolicy:

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: test-app-3
+  name: app-of-apps-3
   namespace: argocd
 spec:
   destination:
@@ -9,7 +9,7 @@ spec:
     namespace: test-apps
   project: default
   source:
-    path: my-app-3
+    path: app-of-apps/my-app-3
     repoURL: https://github.com/allir/argo-cd-test
     targetRevision: HEAD
   syncPolicy:
