@@ -1,0 +1,33 @@
+# Default values for mychart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+favorite:
+  drink: coffee
+  food: pizza
+
+tags:
+  alli: false
+  extras: true
+
+mysubchart:
+  imageTage: gitsha
+  enabled: true
+  dessert: ice cream
+
+mysubchart2:
+  enabled: false
+  dessert: brownies
+
+mysubchart3:
+  imageTag: 1.0.2
+  enabled: true
+  dessert: chocolate cake
+
+extra1:
+  dessert: moonpie
+
+global:
+  secrets:
+    enabled: false
+  salad: chicken
