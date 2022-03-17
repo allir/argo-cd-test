@@ -24,6 +24,16 @@ version: 0.1.0
 appVersion: "1.16.0"
 
 dependencies:
+  - name: subchart1
+  - name: subchart2
+  - name: subchart3
+  - name: subchart4
+  - name: subchart5
+  - name: subchart6
+  - name: subchart7
+  - name: subchart8
+  - name: subchart9
+  - name: subchart10
   - name: allisub
     condition: alli.enabled, allisub.enabled
     tags:
