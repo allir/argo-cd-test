@@ -25,6 +25,7 @@ spec:
     metadata:
       labels:
         app: rollouts-demo
+        newlabel: rollout-demo
     spec:
       containers:
       - name: rollouts-demo
