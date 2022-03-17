@@ -18,6 +18,7 @@ spec:
       labels:
         app: app-1
         appnumber: "1"
+        manager: Kiddi!
     spec:
       containers:
       - image: nginx
