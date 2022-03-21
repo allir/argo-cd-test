@@ -17,6 +17,13 @@ spec:
         app: app-2
         appnumber: "2"
     spec:
+      initContainers:
+        - name: sleep
+          image: busybox
+          command:
+          - 'sh'
+          - '-c'
+          - "sleep 120"
       containers:
       - image: nginx
         name: nginx
